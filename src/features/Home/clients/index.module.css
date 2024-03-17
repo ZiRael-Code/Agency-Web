@@ -1,0 +1,26 @@
+.headPara{
+    padding-left: 30rem;
+}
+
+.headPara > h1{
+    font-weight: 600;
+    font-size: 36px;
+    color: #4D4D4D;
+    padding-left: 7rem;
+}
+
+.headPara > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    gap: 9rem;
+    width: 5rem;
+    height: 2rem;
+    padding-left: 5rem;
+}

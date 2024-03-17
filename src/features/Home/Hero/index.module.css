@@ -1,0 +1,32 @@
+.mainCont{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.innerCont{
+    display: flex;
+    flex-direction: column;
+    padding-left: 8rem;
+
+}
+
+.innerCont > h1{
+    color: #4D4D4D;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 76px;
+}
+
+.innerCont > p{
+    color: #717171;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.heroImg > img{
+    width: 20rem;
+    height: 25rem;
+}

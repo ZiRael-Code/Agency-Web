@@ -1,0 +1,38 @@
+.mainCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.imageSect{
+   display: flex;
+   flex-direction: row;
+   gap: 0.3rem;
+    padding-left: 0;
+}
+
+.imageSect > h1{
+    font-size: 27px;
+    color: #263238;
+}
+
+.imageSect > img{
+    height: 30px;
+    width: 40px;
+    padding-top: 1.4rem;
+}
+
+.linkCont{
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+    padding-right: 2rem;
+}
+
+.linkCont > p{
+    font-size: 18px;
+    color: #18191F;
+    line-height: 24px;
+    font-weight: 450;
+    padding-top: 7px;
+}
