@@ -4,7 +4,6 @@
     line-height: 44px;
     color: #4D4D4D;
 
-
 }
 
 .communityHead > p{
@@ -25,4 +24,12 @@
 
 .content > h1{
     display: block;
+}
+
+.imgs{
+    border: 1px solid blueviolet;
+    width: 3rem;
+    height: 2rem;
+    padding-left: 3rem;
+
 }

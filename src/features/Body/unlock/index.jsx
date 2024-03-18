@@ -7,14 +7,15 @@ const Unlock = ()=>{
         <div className={styles.mainCont}>
             <img src={image} alt={""}/>
             <div className={styles.secondCont}>
-                <h1>The unseen of spending three years at Pixelgrade</h1>
+                <h1>The unseen of spending three <br/>years at Pixelgrade</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum.
-                    Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta.
+                    Sed <br/>accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem
+                    sed<br/> porta.
                     Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor.
-                    Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.
+                    Etiam<br/> quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.
                 </p>
-                <FilledButton color={"#4CAF4F"} textColor={"#FFFFFF"} text={"Learn More"} border={"none"} padding={"10px 7px 8px"}/>
+                <FilledButton color={"#4CAF4F"} textColor={"#FFFFFF"} text={"Learn More"} border={"none"} padding={"14px 19px 8px"}/>
             </div>
         </div>
     )

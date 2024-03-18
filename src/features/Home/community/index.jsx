@@ -15,7 +15,7 @@ const Community = ()=>{
                     Content.map((items, index) => {
                         return (
                             <div key={index} className={style.content}>
-                                <img src={items.image} alt={""}/>
+                                <img className={style.imgs} src={items.image} alt={""}/>
                                 <h1 style={{color: "#4D4D4D"}}>{items.header}</h1>
                                 <p style={{color: "#717171", display: "block"}}>{items.paragraph}</p>
                             </div>
