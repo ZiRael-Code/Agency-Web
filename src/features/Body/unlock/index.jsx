@@ -5,7 +5,7 @@ import styles from "./index.module.css"
 const Unlock = ()=>{
     return(
         <div className={styles.mainCont}>
-            <img className={styles.image} src={image} alt={""}/>
+            <img src={image} alt={""}/>
             <div className={styles.secondCont}>
                 <h1>The unseen of spending three years at Pixelgrade</h1>
                 <p>
