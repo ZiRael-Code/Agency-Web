@@ -19,17 +19,19 @@ export const Content = [
     },
 
     {
-        image: logo2,
-        h1: "828,867",
-        p: "Event Bookings"
-
-    },
-
-    {
         image: logo3,
         h1: "1,926,436",
         p: "Payment"
 
+    },
+
+    {
+        image: logo2,
+        h1: "828,867",
+        p: "Event Bookings"
+
     }
+
+
 ]
 

@@ -1,0 +1,42 @@
+.mainCont{
+    display: flex;
+    padding-top: 3rem;
+}
+
+.secondCont{
+    padding-left: 15rem;
+}
+
+.firstP{
+    color: #717171;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.secondCont > h3{
+    color: #4CAF4F;
+}
+
+.secondP{
+    color: #89939E;
+}
+
+
+.images{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.images > img{
+    width: 2.5rem;
+    height: 2rem;
+    padding-top: 1rem;
+
+}
+
+.images > h3{
+    padding-left: 0.3rem;
+    /*padding-bottom: -9rem;*/
+}

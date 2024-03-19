@@ -1,5 +1,7 @@
 import Unlock from "./unlock";
 import Achievements from "./achievements";
+import Calender from "./calender";
+import Customer from "./customer";
 
 
 const Body = ()=>{
@@ -7,6 +9,8 @@ const Body = ()=>{
         <>
             <Unlock/>
             <Achievements/>
+            <Calender/>
+            <Customer/>
         </>
     )
 }
