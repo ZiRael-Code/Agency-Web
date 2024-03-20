@@ -6,6 +6,7 @@ import logo3 from "../../../assets/clients/Logo (3).png"
 import logo4 from "../../../assets/clients/Logo (4).png"
 import logo5 from "../../../assets/clients/Logo (5).png"
 import style from "./index.module.css"
+import logos from "../../../assets/body/arrow.svg"
 
 const Customer = ()=>{
     return(
@@ -34,6 +35,7 @@ const Customer = ()=>{
                     <img src={logo4} alt={" "}/>
                     <img src={logo5} alt={" "}/>
                     <h3>Meet all customers</h3>
+                    <img className={style.arrow} src={logos} alt={" "}/>
                 </div>
 
             </div>

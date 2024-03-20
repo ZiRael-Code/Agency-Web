@@ -1,0 +1,14 @@
+.mainCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondCont{
+    display: flex;
+}
+
+.secondCont > img{
+    width: 1rem;
+    height: 2rem;
+}
