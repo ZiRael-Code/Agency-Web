@@ -71,5 +71,8 @@ input::placeholder{
 }
 
 .send{
-    right: 2rem;
+    position: absolute;
+    margin-left: -2rem;
+    margin-top: 0.34rem;
+    cursor: pointer;
 }

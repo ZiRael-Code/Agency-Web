@@ -5,8 +5,8 @@ import img3 from "../../../assets/body/3.png"
 
 const CommunityUpdate = ()=>{
     return(
-        <div className={style.mainCont}>
-            <div>
+        <div>
+            <div className={style.firstCont}>
                 <h1>Caring is the new marketing</h1>
                 <p>
                     The Nexcent blog is the best place to read about the latest membership insights,<br/> trends and more.

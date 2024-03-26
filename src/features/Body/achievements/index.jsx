@@ -11,7 +11,7 @@ const Achievements = ()=>{
                 <p className={style.paragraph}>We reached here with our hard work and dedication</p>
             </div>
 
-            <div className={style.secondMainCont}>
+            <div>
                 {
                     Content.map((items, index) => {
                         return (

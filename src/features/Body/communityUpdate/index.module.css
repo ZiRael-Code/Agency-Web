@@ -1,14 +1,12 @@
-.mainCont{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.firstCont{
+   padding-left: 20rem;
 }
-
 .secondCont{
     display: flex;
+    gap: 0.43rem;
 }
 
 .secondCont > img{
-    width: 1rem;
-    height: 2rem;
+    width: 25rem;
+    height: 16rem;
 }
