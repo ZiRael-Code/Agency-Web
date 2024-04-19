@@ -1,6 +1,6 @@
 .mainCont{
     display: flex;
-    padding-left: 7rem;
+    justify-content: space-evenly;
 }
 
 .secondCont{
@@ -25,4 +25,10 @@
     font-size: 11px;
     line-height: 15px;
     color: #717171;
+}
+
+@media screen and (max-width: 760px){
+    .mainCont{
+        flex-direction: column;
+    }
 }

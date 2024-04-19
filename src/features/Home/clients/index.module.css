@@ -1,12 +1,16 @@
 .headPara{
-    padding-left: 30rem;
+    /*padding-left: 30rem;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .headPara > h1{
     font-weight: 600;
     font-size: 36px;
     color: #4D4D4D;
-    padding-left: 7rem;
+    /*padding-left: 7rem;*/
 }
 
 .headPara > p {
@@ -19,8 +23,12 @@
 .image{
     display: flex;
     flex-direction: row;
-    gap: 9rem;
-    width: 5rem;
-    height: 2rem;
-    padding-left: 5rem;
+    justify-content: space-evenly;
+
+}
+@media  screen and (max-width: 760px) {
+    .image{
+        /*flex-direction: column;*/
+    }
+
 }

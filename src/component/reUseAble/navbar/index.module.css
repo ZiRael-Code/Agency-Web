@@ -36,3 +36,7 @@
     font-weight: 450;
     padding-top: 7px;
 }
+
+@media screen and (max-width: 760px) {
+    .mainCont{display: none}
+}

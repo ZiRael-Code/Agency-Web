@@ -3,6 +3,7 @@
     font-size: 36px;
     line-height: 44px;
     color: #4D4D4D;
+    text-align: center;
 
 }
 
@@ -11,25 +12,47 @@
     font-size: 16px;
     line-height: 24px;
     color: #717171;
+    text-align: center;
 
 }
 
 .communityHead{
-  padding-left: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .content{
-    padding-left: 10rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-.content > h1{
-    display: block;
+.content > p{
+    text-align: center;
+}
+
+.communityContent{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 15px;
 }
 
 .imgs{
-    /*border: 1px solid blueviolet;*/
-    width: 3rem;
-    height: 2rem;
-    padding-left: 3rem;
+    /*width: 3rem;*/
+    /*height: 2rem;*/
+    /*padding-left: 3rem;*/
 
+}
+
+@media screen and (max-width: 760px){
+    .communityContent{
+        flex-direction: column;
+    }
+    .content > h1{
+        font-size: 25px;
+    }
 }

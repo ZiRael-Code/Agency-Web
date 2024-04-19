@@ -1,10 +1,7 @@
 .mainCont{
     display: flex;
     padding-top: 3rem;
-}
-
-.secondCont{
-    padding-left: 15rem;
+    justify-content: space-evenly;
 }
 
 .firstP{
@@ -48,4 +45,13 @@
 .arrow{
     width: 2rem;
     height: 3rem;
+}
+
+@media screen and (max-width: 760px){
+    .mainCont{
+        flex-direction: column;
+    }
+    .images{
+        gap: 2rem;
+    }
 }

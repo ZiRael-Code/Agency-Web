@@ -3,10 +3,11 @@
 }
 .secondCont{
     display: flex;
-    gap: 0.43rem;
+    justify-content: space-evenly;
 }
 
-.secondCont > img{
-    width: 25rem;
-    height: 16rem;
+@media screen and (max-width: 760px){
+    .secondCont{
+        flex-direction: column;
+    }
 }

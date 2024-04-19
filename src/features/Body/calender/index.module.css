@@ -3,14 +3,6 @@
     padding-top: 2rem;
 }
 
-.imags{
-    padding-left: 10rem;
-}
-
-.imags > img{
-    width: 30rem;
-    height: 30rem;
-}
 
 .secondCont{
     padding-top: 2.6rem;
@@ -34,4 +26,13 @@
     font-size: 11px;
     line-height: 16px;
     color: #717171;
+}
+
+@media screen and (max-width: 760px){
+    .mainCont{
+      flex-direction: column;
+    }
+    .imags > img{
+        width: 23rem;
+    }
 }
